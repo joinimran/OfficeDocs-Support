@@ -81,7 +81,7 @@ You must test your applications for all the following scenarios, and determine t
 - Your application is affected but can't be changed in time. For internal sites, the application can be excluded from the **SameSite** enforcement behavior in Chrome by using the **LegacySameSiteCookieBehaviorEnabledForDomainList** setting.
 
 If enterprise customers learn that most of their apps are affected, or if they do not have enough time to test their apps before the graduated release of the feature starting on February 18, they're encouraged to disable the **SameSite** behavior in computers they govern. They can do this by using Group Policy, System Center Configuration Manager, or Microsoft Intune (or any Mobile Device Management software) until they can verify that the new behavior doesn't break basic scenarios in their apps.
-
+ 
 Google has released the following [enterprise controls](https://www.chromium.org/administrators/policy-list-3/cookie-legacy-samesite-policies) that can be set to disable the **SameSite** enforcement behavior in Chrome:
 - [LegacySameSiteCookieBehaviorEnabled](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=LegacySameSiteCookieBehaviorEnabled), which enables or disables this change. 
 - [LegacySameSiteCookieBehaviorEnabledForDomainList](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=LegacySameSiteCookieBehaviorEnabledForDomainList), which allows Chrome to disable this policy on specific domains. 
