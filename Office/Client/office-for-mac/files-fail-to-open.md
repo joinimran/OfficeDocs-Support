@@ -63,7 +63,7 @@ Additionally, you may see one of the following error messages when you try to si
     
 > We are unable to connect right now. Please check your network and try again later.
      
-![unable to connect error](./media/files-fail-to-open/unable-to-connect-error.png)
+![unable to connect error](./media/files-fail-to-open/unable-to-connect-error.png) 
    
 > No Internet Connection  
 > It looks like you are not connected to the Internet. You may not be able to access these folders until you go online.
